@@ -1,7 +1,7 @@
 const { nextISSTimesForMyLocation } = require('./iss_promised');
 
 //We can use following line to call this function, but it will run index.js file as well.
-//const { printPassTimes } = require('./index'); 
+//const { printPassTimes } = require('./index');
 
 const printPassTimes = function(passTimes) {
   for (const pass of passTimes) {
